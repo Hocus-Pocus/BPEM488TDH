@@ -1647,9 +1647,9 @@ P 9900 2200
 F 0 "J202" H 10000 3500 50  0000 L CNN
 F 1 "DB25_Female" V 10200 1950 50  0000 L CNN
 F 2 "Connector_Dsub:DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 9900 2200 50  0001 C CNN
-F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/l77sdxxxs1ach4r.pdf?__cf_chl_jschl_tk__=d00de8b7a34aa339e7e9c127d05b0f72f49d6326-1593125922-0-ASueln7clSh4VIdiUUhJQPXTnSbL4BnJzE7O1PEFhD6GjgaRlOKTkioPku4SlU4wH1Mm3LqciUEyqjhfFPUMkKgMRGGuEreS_J4a3DZTUGqwLWJ_mgcf1sg8t-z6LknyErb9gNID7nTWCekk8U9bmjtUcl8GQd-u0LrGT9QMv5NpJHXvLlNnK81jKg9hvQfX2kO3BRqY3x_l5smBrR3hSwqCRoDSL3eVTht7Nl_Z_TKfhZoPXCOOgFz2xar1feUowVF_L22pwxsIBGAzlnP7kPKQitOi-NXzOpztYLqPicUSTiz5AOOBFceFCHaD5E12Lq7bfq8xJkGkkCazBB2gS-VxTbNhE3keFHj1-0YLkd8G35MjLIW0JNvPvyeAVUm5giqcJxsbWbJ6GWPijVTCHwc" H 9900 2200 50  0001 C CNN
-F 4 "L77SDB25S1ACH4R" H 9900 2200 50  0001 C CNN "Mfg"
-F 5 "L77SDB25S1ACH4R-ND" H 9900 2200 50  0001 C CNN "Digikey"
+F 3 "http://www.assmann-wsw.com/fileadmin/datasheets/ASS_4888_CO.pdf" H 9900 2200 50  0001 C CNN
+F 4 "A-DF 25 A/KG-T2S" H 9900 2200 50  0001 C CNN "Mfg"
+F 5 "AE10935-ND" H 9900 2200 50  0001 C CNN "Digikey"
 	1    9900 2200
 	1    0    0    1   
 $EndComp
