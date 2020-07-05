@@ -92,7 +92,7 @@ AR Path="/5EF09792/5F0D7694" Ref="U?"  Part="1"
 AR Path="/5EF2B07F/5EF75822/5F0D7694" Ref="U?"  Part="1" 
 AR Path="/5F09E690/5F0D7694" Ref="U205"  Part="1" 
 F 0 "U205" H 8100 6531 50  0000 C CNN
-F 1 "MAX232" H 8100 6440 50  0000 C CNN
+F 1 "MAX232EEPE+" H 8100 6440 50  0000 C CNN
 F 2 "digikey-footprints:DIP-16_W7.62mm" H 8150 4100 50  0001 L CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX202E-MAX241E.pdf" H 8100 5250 50  0001 C CNN
 F 4 "MAX232EEPE+" H 8100 5150 50  0001 C CNN "Mfg"
@@ -2218,4 +2218,8 @@ Wire Wire Line
 	5950 2100 6100 2100
 Wire Wire Line
 	5950 2900 6100 2900
+Text Notes 2250 4950 0    50   ~ 0
+PAD00 = +Batt = Battery Voltage\nPAD01 = CLT = Coolant Temperature\nPAD02 = MAT = Manifold Air Temperature\nPAD03 = PAD03in = Spare ADC Temperature in\nPAD04 = MAP = Manifold Absolute Pressure\nPAD05 = TPS = Throttle Position Sensor\nPAD06 = EGO = Exhaust Gas Oxygen Sensor\nPAD07 = Barometric Pressure Sensor (board mount)\nPAD08 = EOP = Engine Oil Pressure Sensor\nPAD09 = EFP = Engine Fuel Pressure Sensor\nPAD10 = Itrm = Ignition Trim Potentiometer\nPAD11 = Ftrm = Fuel Trim Potentiometer\nPAD12 = PAD12in = Spare ADC in
+Text Notes 4650 4800 0    50   ~ 0
+PT0 = CMP = Camshaft Position Sensor\nPT1 = CKP = Crankshaft Position Sensor\nPT2 = VSPD = Vehicle Speed Sensor\nPA1 = Ignition Trim Enable Switch\nPA2 = Fuel Trim Enable Switch\nPA3 = Alarm Silence Switch\nPA4 = PA4 input spare\nPA5 = PA5 input spare\nPA6 = PA6 input spare\nPS0 = RS232 Rx\nPS1 = RS232 Tx
 $EndSCHEMATC
