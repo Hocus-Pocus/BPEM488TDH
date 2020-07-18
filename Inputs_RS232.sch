@@ -69,16 +69,16 @@ Wire Wire Line
 Wire Wire Line
 	9000 4900 9550 4900
 Wire Wire Line
-	8900 5650 9400 5650
+	8900 5650 9350 5650
 Wire Wire Line
-	9400 5650 9400 5100
+	9350 5650 9350 5100
 Wire Wire Line
-	9400 5100 9550 5100
+	9350 5100 9550 5100
 Connection ~ 9150 3950
 Wire Wire Line
-	9150 3950 9550 3950
+	9150 3950 9450 3950
 Wire Wire Line
-	9550 3950 9550 4700
+	9450 3950 9450 4700
 NoConn ~ 8900 5850
 NoConn ~ 8900 5450
 NoConn ~ 7300 5450
@@ -99,20 +99,6 @@ F 4 "MAX232EEPE+" H 8100 5150 50  0001 C CNN "Mfg"
 F 5 "MAX232EEPE+-ND" H 8100 5150 50  0001 C CNN "Digikey"
 	1    8100 5150
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F0D769C
-P 1550 4550
-AR Path="/5EF09792/5F0D769C" Ref="R?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5F0D769C" Ref="R?"  Part="1" 
-AR Path="/5F09E690/5F0D769C" Ref="R210"  Part="1" 
-F 0 "R210" V 1475 4575 40  0000 C CNN
-F 1 "1K" V 1550 4550 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1480 4550 50  0001 C CNN
-F 3 "~" H 1550 4550 50  0001 C CNN
-	1    1550 4550
-	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -145,20 +131,6 @@ $EndComp
 Wire Wire Line
 	1700 4550 1950 4550
 $Comp
-L Device:R R?
-U 1 1 5F0D76BE
-P 1550 3900
-AR Path="/5EF09792/5F0D76BE" Ref="R?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5F0D76BE" Ref="R?"  Part="1" 
-AR Path="/5F09E690/5F0D76BE" Ref="R209"  Part="1" 
-F 0 "R209" V 1475 3925 40  0000 C CNN
-F 1 "1K" V 1550 3900 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1480 3900 50  0001 C CNN
-F 3 "~" H 1550 3900 50  0001 C CNN
-	1    1550 3900
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5F0D76D0
 P 1400 4200
@@ -189,20 +161,6 @@ $EndComp
 Wire Wire Line
 	1700 3900 2150 3900
 Connection ~ 1700 3900
-$Comp
-L Device:R R?
-U 1 1 5F0D76E0
-P 1550 3700
-AR Path="/5EF09792/5F0D76E0" Ref="R?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5F0D76E0" Ref="R?"  Part="1" 
-AR Path="/5F09E690/5F0D76E0" Ref="R208"  Part="1" 
-F 0 "R208" V 1475 3725 40  0000 C CNN
-F 1 "6.98K" V 1550 3700 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1480 3700 50  0001 C CNN
-F 3 "~" H 1550 3700 50  0001 C CNN
-	1    1550 3700
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1700 3700 1700 3900
 $Comp
@@ -260,20 +218,6 @@ F 3 "" H 1400 7700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
-U 1 1 5F0D7715
-P 1550 7400
-AR Path="/5EF09792/5F0D7715" Ref="R?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5F0D7715" Ref="R?"  Part="1" 
-AR Path="/5F09E690/5F0D7715" Ref="R213"  Part="1" 
-F 0 "R213" V 1475 7425 40  0000 C CNN
-F 1 "1K" V 1550 7400 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1480 7400 50  0001 C CNN
-F 3 "~" H 1550 7400 50  0001 C CNN
-	1    1550 7400
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5F0D7725
 P 1100 6800
@@ -311,9 +255,11 @@ AR Path="/5EF09792/5F0D7737" Ref="R?"  Part="1"
 AR Path="/5EF2B07F/5EF75822/5F0D7737" Ref="R?"  Part="1" 
 AR Path="/5F09E690/5F0D7737" Ref="R201"  Part="1" 
 F 0 "R201" V 1475 6625 40  0000 C CNN
-F 1 "51K" V 1550 6600 40  0000 C CNN
+F 1 "51.1K" V 1550 6600 40  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1480 6600 50  0001 C CNN
-F 3 "~" H 1550 6600 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 1550 6600 50  0001 C CNN
+F 4 "MFR-25FBF52-51K1" V 1550 6600 50  0001 C CNN "Mfg"
+F 5 "51.0KXBK-ND" V 1550 6600 50  0001 C CNN "Digikey"
 	1    1550 6600
 	1    0    0    -1  
 $EndComp
@@ -347,20 +293,6 @@ F 3 "" H 1400 5500 50  0001 C CNN
 	1    1400 5500
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 5F0D7759
-P 1550 5200
-AR Path="/5EF09792/5F0D7759" Ref="R?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5F0D7759" Ref="R?"  Part="1" 
-AR Path="/5F09E690/5F0D7759" Ref="R211"  Part="1" 
-F 0 "R211" V 1475 5225 40  0000 C CNN
-F 1 "1K" V 1550 5200 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1480 5200 50  0001 C CNN
-F 3 "~" H 1550 5200 50  0001 C CNN
-	1    1550 5200
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1700 5850 1950 5850
 $Comp
@@ -391,27 +323,12 @@ F 3 "" H 1400 6150 50  0001 C CNN
 	1    1400 6150
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 5F0D777B
-P 1550 5850
-AR Path="/5EF09792/5F0D777B" Ref="R?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5F0D777B" Ref="R?"  Part="1" 
-AR Path="/5F09E690/5F0D777B" Ref="R212"  Part="1" 
-F 0 "R212" V 1475 5875 40  0000 C CNN
-F 1 "1K" V 1550 5850 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1480 5850 50  0001 C CNN
-F 3 "~" H 1550 5850 50  0001 C CNN
-	1    1550 5850
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2700 3100 3000 3100
 Wire Wire Line
 	2700 2450 3000 2450
 Wire Wire Line
 	2700 1800 3000 1800
-Connection ~ 3000 1150
 Wire Wire Line
 	2700 1150 3000 1150
 Wire Wire Line
@@ -444,21 +361,6 @@ F 3 "" H 3000 3400 50  0001 C CNN
 	1    3000 3400
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 5F0D77A5
-P 3150 3100
-AR Path="/5EF09792/5F0D77A5" Ref="R?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5F0D77A5" Ref="R?"  Part="1" 
-AR Path="/5F09E690/5F0D77A5" Ref="R218"  Part="1" 
-F 0 "R218" V 3075 3125 40  0000 C CNN
-F 1 "1K" V 3150 3100 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3080 3100 50  0001 C CNN
-F 3 "~" H 3150 3100 50  0001 C CNN
-	1    3150 3100
-	0    1    1    0   
-$EndComp
-Connection ~ 3300 1150
 Wire Wire Line
 	3300 1150 3550 1150
 $Comp
@@ -489,50 +391,6 @@ F 3 "" H 3000 1450 50  0001 C CNN
 	1    3000 1450
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Device:C C?
-U 1 1 5F0D77BB
-P 3300 1300
-AR Path="/5EF09792/5F0D77BB" Ref="C?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5F0D77BB" Ref="C?"  Part="1" 
-AR Path="/5F09E690/5F0D77BB" Ref="C223"  Part="1" 
-F 0 "C223" H 3400 1200 40  0000 C CNN
-F 1 "0.22uF" H 3450 1400 40  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 3338 1150 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1051_GOLDMAX_Z5U.pdf" H 3300 1300 50  0001 C CNN
-F 4 "C320C224M5U5TA" H 3300 1300 50  0001 C CNN "Mfg"
-F 5 "399-4289-ND" H 3300 1300 50  0001 C CNN "Digikey"
-	1    3300 1300
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5F0D77C1
-P 3000 1300
-AR Path="/5EF09792/5F0D77C1" Ref="C?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5F0D77C1" Ref="C?"  Part="1" 
-AR Path="/5F09E690/5F0D77C1" Ref="C219"  Part="1" 
-F 0 "C219" H 2900 1200 40  0000 C CNN
-F 1 "0.001uF" H 2850 1400 40  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 3038 1150 50  0001 C CNN
-F 3 "~" H 3000 1300 50  0001 C CNN
-	1    3000 1300
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F0D77C7
-P 3150 1150
-AR Path="/5EF09792/5F0D77C7" Ref="R?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5F0D77C7" Ref="R?"  Part="1" 
-AR Path="/5F09E690/5F0D77C7" Ref="R215"  Part="1" 
-F 0 "R215" V 3075 1175 40  0000 C CNN
-F 1 "1K" V 3150 1150 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3080 1150 50  0001 C CNN
-F 3 "~" H 3150 1150 50  0001 C CNN
-	1    3150 1150
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3300 1800 3550 1800
 $Comp
@@ -562,20 +420,6 @@ F 2 "" H 3000 2100 50  0001 C CNN
 F 3 "" H 3000 2100 50  0001 C CNN
 	1    3000 2100
 	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F0D77E9
-P 3150 1800
-AR Path="/5EF09792/5F0D77E9" Ref="R?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5F0D77E9" Ref="R?"  Part="1" 
-AR Path="/5F09E690/5F0D77E9" Ref="R216"  Part="1" 
-F 0 "R216" V 3075 1825 40  0000 C CNN
-F 1 "1K" V 3150 1800 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3080 1800 50  0001 C CNN
-F 3 "~" H 3150 1800 50  0001 C CNN
-	1    3150 1800
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	3300 2450 3550 2450
@@ -608,34 +452,6 @@ F 3 "" H 3000 2750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
-U 1 1 5F0D780B
-P 3150 2450
-AR Path="/5EF09792/5F0D780B" Ref="R?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5F0D780B" Ref="R?"  Part="1" 
-AR Path="/5F09E690/5F0D780B" Ref="R217"  Part="1" 
-F 0 "R217" V 3075 2475 40  0000 C CNN
-F 1 "1K" V 3150 2450 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3080 2450 50  0001 C CNN
-F 3 "~" H 3150 2450 50  0001 C CNN
-	1    3150 2450
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F0D7811
-P 1550 3050
-AR Path="/5EF09792/5F0D7811" Ref="R?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5F0D7811" Ref="R?"  Part="1" 
-AR Path="/5F09E690/5F0D7811" Ref="R207"  Part="1" 
-F 0 "R207" V 1475 3075 40  0000 C CNN
-F 1 "1K" V 1550 3050 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1480 3050 50  0001 C CNN
-F 3 "~" H 1550 3050 50  0001 C CNN
-	1    1550 3050
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5F0D7823
 P 1400 3350
@@ -666,20 +482,6 @@ $EndComp
 Wire Wire Line
 	1700 3050 1950 3050
 Connection ~ 1700 3050
-$Comp
-L Device:R R?
-U 1 1 5F0D7833
-P 1550 2850
-AR Path="/5EF09792/5F0D7833" Ref="R?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5F0D7833" Ref="R?"  Part="1" 
-AR Path="/5F09E690/5F0D7833" Ref="R206"  Part="1" 
-F 0 "R206" V 1475 2875 40  0000 C CNN
-F 1 "6.98K" V 1550 2850 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1480 2850 50  0001 C CNN
-F 3 "~" H 1550 2850 50  0001 C CNN
-	1    1550 2850
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1700 2850 1700 3050
 $Comp
@@ -698,34 +500,6 @@ F 3 "" H 1400 2850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1050 3050 1400 3050
-$Comp
-L Device:R R?
-U 1 1 5F0D7842
-P 1550 2200
-AR Path="/5EF09792/5F0D7842" Ref="R?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5F0D7842" Ref="R?"  Part="1" 
-AR Path="/5F09E690/5F0D7842" Ref="R205"  Part="1" 
-F 0 "R205" V 1475 2225 40  0000 C CNN
-F 1 "1K" V 1550 2200 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1480 2200 50  0001 C CNN
-F 3 "~" H 1550 2200 50  0001 C CNN
-	1    1550 2200
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F0D7854
-P 1400 2500
-AR Path="/5EF09792/5F0D7854" Ref="#PWR?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5F0D7854" Ref="#PWR?"  Part="1" 
-AR Path="/5F09E690/5F0D7854" Ref="#PWR0207"  Part="1" 
-F 0 "#PWR0207" H 1400 2250 50  0001 C CNN
-F 1 "GND" H 1405 2327 50  0000 C CNN
-F 2 "" H 1400 2500 50  0001 C CNN
-F 3 "" H 1400 2500 50  0001 C CNN
-	1    1400 2500
-	-1   0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F0D785A
@@ -753,7 +527,9 @@ AR Path="/5F09E690/5F0D7864" Ref="R204"  Part="1"
 F 0 "R204" V 1475 2025 40  0000 C CNN
 F 1 "6.98K" V 1550 2000 40  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1480 2000 50  0001 C CNN
-F 3 "~" H 1550 2000 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 1550 2000 50  0001 C CNN
+F 4 "MFR-25FBF52-6K98" V 1550 2000 50  0001 C CNN "Mfg"
+F 5 "6.98KXBK-ND" V 1550 2000 50  0001 C CNN "Digikey"
 	1    1550 2000
 	0    1    1    0   
 $EndComp
@@ -783,9 +559,11 @@ AR Path="/5EF09792/5F0E2D93" Ref="R?"  Part="1"
 AR Path="/5EF2B07F/5EF75822/5F0E2D93" Ref="R?"  Part="1" 
 AR Path="/5F09E690/5F0E2D93" Ref="R225"  Part="1" 
 F 0 "R225" V 6175 1325 40  0000 C CNN
-F 1 "1.5K" V 6250 1300 40  0000 C CNN
+F 1 "200R" V 6250 1300 40  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6180 1300 50  0001 C CNN
-F 3 "~" H 6250 1300 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 6250 1300 50  0001 C CNN
+F 4 "MFR-25FBF52-200R" V 6250 1300 50  0001 C CNN "Mfg"
+F 5 "200XBK-ND" V 6250 1300 50  0001 C CNN "Digikey"
 	1    6250 1300
 	0    1    1    0   
 $EndComp
@@ -808,34 +586,6 @@ F 11 "Diodes Incorporated" H 5000 2650 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 5000 2750 60  0001 L CNN "Status"
 	1    4800 1550
 	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F0E4EB4
-P 5250 1800
-AR Path="/5EF09792/5F0E4EB4" Ref="R?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5F0E4EB4" Ref="R?"  Part="1" 
-AR Path="/5F09E690/5F0E4EB4" Ref="R219"  Part="1" 
-F 0 "R219" V 5350 1800 40  0000 C CNN
-F 1 "1K" V 5250 1800 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5180 1800 50  0001 C CNN
-F 3 "~" H 5250 1800 50  0001 C CNN
-	1    5250 1800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F0E5031
-P 5750 1800
-AR Path="/5EF09792/5F0E5031" Ref="R?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5F0E5031" Ref="R?"  Part="1" 
-AR Path="/5F09E690/5F0E5031" Ref="R222"  Part="1" 
-F 0 "R222" V 5850 1800 40  0000 C CNN
-F 1 "1K" V 5750 1800 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5680 1800 50  0001 C CNN
-F 3 "~" H 5750 1800 50  0001 C CNN
-	1    5750 1800
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5800 1350 5850 1350
@@ -906,20 +656,6 @@ Wire Wire Line
 Wire Wire Line
 	4700 1750 4400 1750
 $Comp
-L Device:R R?
-U 1 1 5F1247A8
-P 6250 2100
-AR Path="/5EF09792/5F1247A8" Ref="R?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5F1247A8" Ref="R?"  Part="1" 
-AR Path="/5F09E690/5F1247A8" Ref="R226"  Part="1" 
-F 0 "R226" V 6175 2125 40  0000 C CNN
-F 1 "1.5K" V 6250 2100 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6180 2100 50  0001 C CNN
-F 3 "~" H 6250 2100 50  0001 C CNN
-	1    6250 2100
-	0    1    1    0   
-$EndComp
-$Comp
 L dk_Transistors-Bipolar-BJT-Single:ZTX450 Q202
 U 1 1 5F1247BD
 P 4800 2350
@@ -938,34 +674,6 @@ F 11 "Diodes Incorporated" H 5000 3450 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 5000 3550 60  0001 L CNN "Status"
 	1    4800 2350
 	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F1247C3
-P 5250 2600
-AR Path="/5EF09792/5F1247C3" Ref="R?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5F1247C3" Ref="R?"  Part="1" 
-AR Path="/5F09E690/5F1247C3" Ref="R220"  Part="1" 
-F 0 "R220" V 5350 2600 40  0000 C CNN
-F 1 "1K" V 5250 2600 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5180 2600 50  0001 C CNN
-F 3 "~" H 5250 2600 50  0001 C CNN
-	1    5250 2600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F1247C9
-P 5750 2600
-AR Path="/5EF09792/5F1247C9" Ref="R?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5F1247C9" Ref="R?"  Part="1" 
-AR Path="/5F09E690/5F1247C9" Ref="R223"  Part="1" 
-F 0 "R223" V 5850 2600 40  0000 C CNN
-F 1 "1K" V 5750 2600 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5680 2600 50  0001 C CNN
-F 3 "~" H 5750 2600 50  0001 C CNN
-	1    5750 2600
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5800 2150 5850 2150
@@ -1034,20 +742,6 @@ Wire Wire Line
 Wire Wire Line
 	4700 2550 4400 2550
 $Comp
-L Device:R R?
-U 1 1 5F12B219
-P 6250 2900
-AR Path="/5EF09792/5F12B219" Ref="R?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5F12B219" Ref="R?"  Part="1" 
-AR Path="/5F09E690/5F12B219" Ref="R227"  Part="1" 
-F 0 "R227" V 6175 2925 40  0000 C CNN
-F 1 "1.5K" V 6250 2900 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6180 2900 50  0001 C CNN
-F 3 "~" H 6250 2900 50  0001 C CNN
-	1    6250 2900
-	0    1    1    0   
-$EndComp
-$Comp
 L dk_Transistors-Bipolar-BJT-Single:ZTX450 Q203
 U 1 1 5F12B22E
 P 4800 3150
@@ -1066,34 +760,6 @@ F 11 "Diodes Incorporated" H 5000 4250 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 5000 4350 60  0001 L CNN "Status"
 	1    4800 3150
 	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F12B234
-P 5250 3400
-AR Path="/5EF09792/5F12B234" Ref="R?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5F12B234" Ref="R?"  Part="1" 
-AR Path="/5F09E690/5F12B234" Ref="R221"  Part="1" 
-F 0 "R221" V 5350 3400 40  0000 C CNN
-F 1 "1K" V 5250 3400 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5180 3400 50  0001 C CNN
-F 3 "~" H 5250 3400 50  0001 C CNN
-	1    5250 3400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F12B23A
-P 5750 3400
-AR Path="/5EF09792/5F12B23A" Ref="R?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5F12B23A" Ref="R?"  Part="1" 
-AR Path="/5F09E690/5F12B23A" Ref="R224"  Part="1" 
-F 0 "R224" V 5850 3400 40  0000 C CNN
-F 1 "1K" V 5750 3400 40  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5680 3400 50  0001 C CNN
-F 3 "~" H 5750 3400 50  0001 C CNN
-	1    5750 3400
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5800 2950 5850 2950
@@ -1258,7 +924,9 @@ AR Path="/5F09E690/5F219622" Ref="R203"  Part="1"
 F 0 "R203" V 1475 1375 40  0000 C CNN
 F 1 "1K" V 1550 1350 40  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1480 1350 50  0001 C CNN
-F 3 "~" H 1550 1350 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 1550 1350 50  0001 C CNN
+F 4 "MFR-25FBF52-1K" V 1550 1350 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 1550 1350 50  0001 C CNN "Digikey"
 	1    1550 1350
 	0    1    1    0   
 $EndComp
@@ -1296,20 +964,6 @@ F 5 "399-4144-ND" H 1700 1500 50  0001 C CNN "Digikey"
 $EndComp
 $Comp
 L power:GND #PWR?
-U 1 1 5F219634
-P 1400 1650
-AR Path="/5EF09792/5F219634" Ref="#PWR?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5F219634" Ref="#PWR?"  Part="1" 
-AR Path="/5F09E690/5F219634" Ref="#PWR0204"  Part="1" 
-F 0 "#PWR0204" H 1400 1400 50  0001 C CNN
-F 1 "GND" H 1405 1477 50  0000 C CNN
-F 2 "" H 1400 1650 50  0001 C CNN
-F 3 "" H 1400 1650 50  0001 C CNN
-	1    1400 1650
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
 U 1 1 5F21963A
 P 1700 1650
 AR Path="/5EF09792/5F21963A" Ref="#PWR?"  Part="1" 
@@ -1332,7 +986,9 @@ AR Path="/5F09E690/5F219642" Ref="R202"  Part="1"
 F 0 "R202" V 1475 1175 40  0000 C CNN
 F 1 "49.9K" V 1550 1150 40  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1480 1150 50  0001 C CNN
-F 3 "~" H 1550 1150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 1550 1150 50  0001 C CNN
+F 4 "MFR-25FBF52-49K9" V 1550 1150 50  0001 C CNN "Mfg"
+F 5 "49.9KXBK-ND" V 1550 1150 50  0001 C CNN "Digikey"
 	1    1550 1150
 	0    1    1    0   
 $EndComp
@@ -1353,7 +1009,6 @@ F 3 "" H 1400 1650 50  0001 C CNN
 	1    1400 1650
 	-1   0    0    -1  
 $EndComp
-Connection ~ 1400 1650
 $Comp
 L Device:R R?
 U 1 1 5F21F51C
@@ -1364,7 +1019,9 @@ AR Path="/5F09E690/5F21F51C" Ref="R214"  Part="1"
 F 0 "R214" V 1875 1175 40  0000 C CNN
 F 1 "10K" V 1950 1150 40  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1880 1150 50  0001 C CNN
-F 3 "~" H 1950 1150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 1950 1150 50  0001 C CNN
+F 4 "MFR-25FBF52-10K" V 1950 1150 50  0001 C CNN "Mfg"
+F 5 "10.0KXBK-ND" V 1950 1150 50  0001 C CNN "Digikey"
 	1    1950 1150
 	0    1    1    0   
 $EndComp
@@ -1628,7 +1285,7 @@ U 1 1 5F36529B
 P 9850 5100
 F 0 "J201" H 9750 5700 50  0000 L CNN
 F 1 "DB9_Female" V 10100 4950 50  0000 L CNN
-F 2 "digikey-footprints:DB9Fem" H 9850 5100 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm" H 9850 5100 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2301844&DocType=Customer+Drawing&DocLang=English" H 9850 5100 50  0001 C CNN
 F 4 "2301844-1" H 9850 5100 50  0001 C CNN "Mfg"
 F 5 "A132512-ND" H 9850 5100 50  0001 C CNN "Digikey"
@@ -1636,17 +1293,14 @@ F 5 "A132512-ND" H 9850 5100 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9550 5400 9550 5500
-Wire Wire Line
 	9550 6350 9550 5500
-Connection ~ 9550 5500
 $Comp
 L Connector:DB25_Female J202
 U 1 1 5F144313
 P 9900 2200
 F 0 "J202" H 10000 3500 50  0000 L CNN
 F 1 "DB25_Female" V 10200 1950 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 9900 2200 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 9900 2200 50  0001 C CNN
 F 3 "http://www.assmann-wsw.com/fileadmin/datasheets/ASS_4888_CO.pdf" H 9900 2200 50  0001 C CNN
 F 4 "A-DF 25 A/KG-T2S" H 9900 2200 50  0001 C CNN "Mfg"
 F 5 "AE10935-ND" H 9900 2200 50  0001 C CNN "Digikey"
@@ -1739,8 +1393,6 @@ F 5 "399-9714-ND" H 1400 2350 50  0001 C CNN "Digikey"
 	1    1400 2350
 	1    0    0    1   
 $EndComp
-Connection ~ 1400 2500
-Connection ~ 1400 2200
 $Comp
 L Device:C C?
 U 1 1 5EFCDAEE
@@ -1816,7 +1468,6 @@ F 5 "399-9714-ND" H 1400 3200 50  0001 C CNN "Digikey"
 	1    1400 3200
 	1    0    0    1   
 $EndComp
-Connection ~ 1400 3050
 $Comp
 L Device:C C?
 U 1 1 5EFD7E41
@@ -1833,7 +1484,6 @@ F 5 "399-9714-ND" H 1400 4050 50  0001 C CNN "Digikey"
 	1    1400 4050
 	1    0    0    1   
 $EndComp
-Connection ~ 1400 3900
 $Comp
 L Device:C C?
 U 1 1 5EFD8D08
@@ -1850,57 +1500,6 @@ F 5 "399-4144-ND" H 1700 2350 50  0001 C CNN "Digikey"
 	1    1700 2350
 	1    0    0    1   
 $EndComp
-$Comp
-L Device:C C?
-U 1 1 5EFD970F
-P 3000 1950
-AR Path="/5EF09792/5EFD970F" Ref="C?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5EFD970F" Ref="C?"  Part="1" 
-AR Path="/5F09E690/5EFD970F" Ref="C220"  Part="1" 
-F 0 "C220" H 2900 1850 40  0000 C CNN
-F 1 "0.001uF" H 3150 2050 40  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 3038 1800 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1050_GOLDMAX_X7R.pdf" H 3000 1950 50  0001 C CNN
-F 4 "C315C102K1R5TA" H 3000 1950 50  0001 C CNN "Mfg"
-F 5 "399-4144-ND" H 3000 1950 50  0001 C CNN "Digikey"
-	1    3000 1950
-	1    0    0    1   
-$EndComp
-Connection ~ 3000 1800
-$Comp
-L Device:C C?
-U 1 1 5EFDA24B
-P 3000 2600
-AR Path="/5EF09792/5EFDA24B" Ref="C?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5EFDA24B" Ref="C?"  Part="1" 
-AR Path="/5F09E690/5EFDA24B" Ref="C221"  Part="1" 
-F 0 "C221" H 2950 2500 40  0000 C CNN
-F 1 "0.001uF" H 3150 2700 40  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 3038 2450 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1050_GOLDMAX_X7R.pdf" H 3000 2600 50  0001 C CNN
-F 4 "C315C102K1R5TA" H 3000 2600 50  0001 C CNN "Mfg"
-F 5 "399-4144-ND" H 3000 2600 50  0001 C CNN "Digikey"
-	1    3000 2600
-	1    0    0    1   
-$EndComp
-Connection ~ 3000 2450
-$Comp
-L Device:C C?
-U 1 1 5EFDA6FD
-P 3000 3250
-AR Path="/5EF09792/5EFDA6FD" Ref="C?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5EFDA6FD" Ref="C?"  Part="1" 
-AR Path="/5F09E690/5EFDA6FD" Ref="C222"  Part="1" 
-F 0 "C222" H 2900 3150 40  0000 C CNN
-F 1 "0.001uF" H 3150 3350 40  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 3038 3100 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1050_GOLDMAX_X7R.pdf" H 3000 3250 50  0001 C CNN
-F 4 "C315C102K1R5TA" H 3000 3250 50  0001 C CNN "Mfg"
-F 5 "399-4144-ND" H 3000 3250 50  0001 C CNN "Digikey"
-	1    3000 3250
-	1    0    0    1   
-$EndComp
-Connection ~ 3000 3100
 $Comp
 L Device:C C?
 U 1 1 5EFDACEF
@@ -1931,257 +1530,6 @@ F 3 "https://content.kemet.com/datasheets/KEM_C1050_GOLDMAX_X7R.pdf" H 1700 4050
 F 4 "C315C102K1R5TA" H 1700 4050 50  0001 C CNN "Mfg"
 F 5 "399-4144-ND" H 1700 4050 50  0001 C CNN "Digikey"
 	1    1700 4050
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5EFDC859
-P 1400 4700
-AR Path="/5EF09792/5EFDC859" Ref="C?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5EFDC859" Ref="C?"  Part="1" 
-AR Path="/5F09E690/5EFDC859" Ref="C205"  Part="1" 
-F 0 "C205" H 1300 4600 40  0000 C CNN
-F 1 "0.001uF" H 1550 4800 40  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 1438 4550 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1050_GOLDMAX_X7R.pdf" H 1400 4700 50  0001 C CNN
-F 4 "C315C102K1R5TA" H 1400 4700 50  0001 C CNN "Mfg"
-F 5 "399-4144-ND" H 1400 4700 50  0001 C CNN "Digikey"
-	1    1400 4700
-	1    0    0    1   
-$EndComp
-Connection ~ 1400 4550
-$Comp
-L Device:C C?
-U 1 1 5EFDCEDB
-P 1400 5350
-AR Path="/5EF09792/5EFDCEDB" Ref="C?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5EFDCEDB" Ref="C?"  Part="1" 
-AR Path="/5F09E690/5EFDCEDB" Ref="C206"  Part="1" 
-F 0 "C206" H 1300 5250 40  0000 C CNN
-F 1 "0.001uF" H 1550 5450 40  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 1438 5200 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1050_GOLDMAX_X7R.pdf" H 1400 5350 50  0001 C CNN
-F 4 "C315C102K1R5TA" H 1400 5350 50  0001 C CNN "Mfg"
-F 5 "399-4144-ND" H 1400 5350 50  0001 C CNN "Digikey"
-	1    1400 5350
-	1    0    0    1   
-$EndComp
-Connection ~ 1400 5200
-$Comp
-L Device:C C?
-U 1 1 5EFDD66C
-P 1400 6000
-AR Path="/5EF09792/5EFDD66C" Ref="C?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5EFDD66C" Ref="C?"  Part="1" 
-AR Path="/5F09E690/5EFDD66C" Ref="C207"  Part="1" 
-F 0 "C207" H 1300 5900 40  0000 C CNN
-F 1 "0.001uF" H 1550 6100 40  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 1438 5850 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1050_GOLDMAX_X7R.pdf" H 1400 6000 50  0001 C CNN
-F 4 "C315C102K1R5TA" H 1400 6000 50  0001 C CNN "Mfg"
-F 5 "399-4144-ND" H 1400 6000 50  0001 C CNN "Digikey"
-	1    1400 6000
-	1    0    0    1   
-$EndComp
-Connection ~ 1400 5850
-$Comp
-L Device:C C?
-U 1 1 5EFDDB34
-P 1400 7550
-AR Path="/5EF09792/5EFDDB34" Ref="C?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5EFDDB34" Ref="C?"  Part="1" 
-AR Path="/5F09E690/5EFDDB34" Ref="C208"  Part="1" 
-F 0 "C208" H 1300 7450 40  0000 C CNN
-F 1 "0.001uF" H 1550 7650 40  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 1438 7400 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1050_GOLDMAX_X7R.pdf" H 1400 7550 50  0001 C CNN
-F 4 "C315C102K1R5TA" H 1400 7550 50  0001 C CNN "Mfg"
-F 5 "399-4144-ND" H 1400 7550 50  0001 C CNN "Digikey"
-	1    1400 7550
-	1    0    0    1   
-$EndComp
-Connection ~ 1400 7400
-$Comp
-L Device:C C?
-U 1 1 5EFDEFA6
-P 3300 1950
-AR Path="/5EF09792/5EFDEFA6" Ref="C?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5EFDEFA6" Ref="C?"  Part="1" 
-AR Path="/5F09E690/5EFDEFA6" Ref="C224"  Part="1" 
-F 0 "C224" H 3400 1850 40  0000 C CNN
-F 1 "0.22uF" H 3450 2050 40  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 3338 1800 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1051_GOLDMAX_Z5U.pdf" H 3300 1950 50  0001 C CNN
-F 4 "C320C224M5U5TA" H 3300 1950 50  0001 C CNN "Mfg"
-F 5 "399-4289-ND" H 3300 1950 50  0001 C CNN "Digikey"
-	1    3300 1950
-	1    0    0    1   
-$EndComp
-Connection ~ 3300 1800
-$Comp
-L Device:C C?
-U 1 1 5EFDF578
-P 3300 2600
-AR Path="/5EF09792/5EFDF578" Ref="C?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5EFDF578" Ref="C?"  Part="1" 
-AR Path="/5F09E690/5EFDF578" Ref="C225"  Part="1" 
-F 0 "C225" H 3400 2500 40  0000 C CNN
-F 1 "0.22uF" H 3450 2700 40  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 3338 2450 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1051_GOLDMAX_Z5U.pdf" H 3300 2600 50  0001 C CNN
-F 4 "C320C224M5U5TA" H 3300 2600 50  0001 C CNN "Mfg"
-F 5 "399-4289-ND" H 3300 2600 50  0001 C CNN "Digikey"
-	1    3300 2600
-	1    0    0    1   
-$EndComp
-Connection ~ 3300 2450
-$Comp
-L Device:C C?
-U 1 1 5EFDFAEF
-P 3300 3250
-AR Path="/5EF09792/5EFDFAEF" Ref="C?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5EFDFAEF" Ref="C?"  Part="1" 
-AR Path="/5F09E690/5EFDFAEF" Ref="C226"  Part="1" 
-F 0 "C226" H 3400 3150 40  0000 C CNN
-F 1 "0.22uF" H 3450 3350 40  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 3338 3100 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1051_GOLDMAX_Z5U.pdf" H 3300 3250 50  0001 C CNN
-F 4 "C320C224M5U5TA" H 3300 3250 50  0001 C CNN "Mfg"
-F 5 "399-4289-ND" H 3300 3250 50  0001 C CNN "Digikey"
-	1    3300 3250
-	1    0    0    1   
-$EndComp
-Connection ~ 3300 3100
-$Comp
-L Device:C C?
-U 1 1 5EFDFF2B
-P 1700 4700
-AR Path="/5EF09792/5EFDFF2B" Ref="C?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5EFDFF2B" Ref="C?"  Part="1" 
-AR Path="/5F09E690/5EFDFF2B" Ref="C213"  Part="1" 
-F 0 "C213" H 1800 4600 40  0000 C CNN
-F 1 "0.22uF" H 1850 4800 40  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 1738 4550 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1051_GOLDMAX_Z5U.pdf" H 1700 4700 50  0001 C CNN
-F 4 "C320C224M5U5TA" H 1700 4700 50  0001 C CNN "Mfg"
-F 5 "399-4289-ND" H 1700 4700 50  0001 C CNN "Digikey"
-	1    1700 4700
-	1    0    0    1   
-$EndComp
-Connection ~ 1700 4550
-$Comp
-L Device:C C?
-U 1 1 5EFE0C93
-P 1700 5350
-AR Path="/5EF09792/5EFE0C93" Ref="C?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5EFE0C93" Ref="C?"  Part="1" 
-AR Path="/5F09E690/5EFE0C93" Ref="C214"  Part="1" 
-F 0 "C214" H 1800 5250 40  0000 C CNN
-F 1 "0.22uF" H 1850 5450 40  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 1738 5200 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1051_GOLDMAX_Z5U.pdf" H 1700 5350 50  0001 C CNN
-F 4 "C320C224M5U5TA" H 1700 5350 50  0001 C CNN "Mfg"
-F 5 "399-4289-ND" H 1700 5350 50  0001 C CNN "Digikey"
-	1    1700 5350
-	1    0    0    1   
-$EndComp
-Connection ~ 1700 5200
-$Comp
-L Device:C C?
-U 1 1 5EFE158D
-P 1700 6000
-AR Path="/5EF09792/5EFE158D" Ref="C?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5EFE158D" Ref="C?"  Part="1" 
-AR Path="/5F09E690/5EFE158D" Ref="C215"  Part="1" 
-F 0 "C215" H 1800 5900 40  0000 C CNN
-F 1 "0.22uF" H 1850 6100 40  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 1738 5850 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1051_GOLDMAX_Z5U.pdf" H 1700 6000 50  0001 C CNN
-F 4 "C320C224M5U5TA" H 1700 6000 50  0001 C CNN "Mfg"
-F 5 "399-4289-ND" H 1700 6000 50  0001 C CNN "Digikey"
-	1    1700 6000
-	1    0    0    1   
-$EndComp
-Connection ~ 1700 5850
-$Comp
-L Device:C C?
-U 1 1 5EFE1BFA
-P 1700 7550
-AR Path="/5EF09792/5EFE1BFA" Ref="C?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5EFE1BFA" Ref="C?"  Part="1" 
-AR Path="/5F09E690/5EFE1BFA" Ref="C216"  Part="1" 
-F 0 "C216" H 1800 7450 40  0000 C CNN
-F 1 "0.22uF" H 1850 7650 40  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 1738 7400 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1051_GOLDMAX_Z5U.pdf" H 1700 7550 50  0001 C CNN
-F 4 "C320C224M5U5TA" H 1700 7550 50  0001 C CNN "Mfg"
-F 5 "399-4289-ND" H 1700 7550 50  0001 C CNN "Digikey"
-	1    1700 7550
-	1    0    0    1   
-$EndComp
-Connection ~ 1700 7400
-$Comp
-L Device:C C?
-U 1 1 5EFE2E99
-P 9150 5200
-AR Path="/5EF09792/5EFE2E99" Ref="C?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5EFE2E99" Ref="C?"  Part="1" 
-AR Path="/5F09E690/5EFE2E99" Ref="C233"  Part="1" 
-F 0 "C233" H 9250 5100 40  0000 C CNN
-F 1 "0.22uF" H 9300 5300 40  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 9188 5050 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1051_GOLDMAX_Z5U.pdf" H 9150 5200 50  0001 C CNN
-F 4 "C320C224M5U5TA" H 9150 5200 50  0001 C CNN "Mfg"
-F 5 "399-4289-ND" H 9150 5200 50  0001 C CNN "Digikey"
-	1    9150 5200
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5EFE56A7
-P 9150 4400
-AR Path="/5EF09792/5EFE56A7" Ref="C?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5EFE56A7" Ref="C?"  Part="1" 
-AR Path="/5F09E690/5EFE56A7" Ref="C232"  Part="1" 
-F 0 "C232" H 9250 4300 40  0000 C CNN
-F 1 "0.22uF" H 9300 4500 40  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 9188 4250 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1051_GOLDMAX_Z5U.pdf" H 9150 4400 50  0001 C CNN
-F 4 "C320C224M5U5TA" H 9150 4400 50  0001 C CNN "Mfg"
-F 5 "399-4289-ND" H 9150 4400 50  0001 C CNN "Digikey"
-	1    9150 4400
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5EFE5DDF
-P 8900 4400
-AR Path="/5EF09792/5EFE5DDF" Ref="C?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5EFE5DDF" Ref="C?"  Part="1" 
-AR Path="/5F09E690/5EFE5DDF" Ref="C231"  Part="1" 
-F 0 "C231" H 9000 4300 40  0000 C CNN
-F 1 "0.22uF" H 9050 4500 40  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 8938 4250 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1051_GOLDMAX_Z5U.pdf" H 8900 4400 50  0001 C CNN
-F 4 "C320C224M5U5TA" H 8900 4400 50  0001 C CNN "Mfg"
-F 5 "399-4289-ND" H 8900 4400 50  0001 C CNN "Digikey"
-	1    8900 4400
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5EFE627B
-P 7300 4400
-AR Path="/5EF09792/5EFE627B" Ref="C?"  Part="1" 
-AR Path="/5EF2B07F/5EF75822/5EFE627B" Ref="C?"  Part="1" 
-AR Path="/5F09E690/5EFE627B" Ref="C230"  Part="1" 
-F 0 "C230" H 7200 4300 40  0000 C CNN
-F 1 "0.22uF" H 7150 4500 40  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 7338 4250 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1051_GOLDMAX_Z5U.pdf" H 7300 4400 50  0001 C CNN
-F 4 "C320C224M5U5TA" H 7300 4400 50  0001 C CNN "Mfg"
-F 5 "399-4289-ND" H 7300 4400 50  0001 C CNN "Digikey"
-	1    7300 4400
 	1    0    0    1   
 $EndComp
 Wire Wire Line
@@ -2224,4 +1572,686 @@ Text Notes 4650 4800 0    50   ~ 0
 PT0 = CMP = Camshaft Position Sensor\nPT1 = CKP = Crankshaft Position Sensor\nPT2 = VSPD = Vehicle Speed Sensor\nPA1 = Ignition Trim Enable Switch\nPA2 = Fuel Trim Enable Switch\nPA3 = Alarm Silence Switch\nPA4 = PA4 input spare\nPA5 = PA5 input spare\nPA6 = PA6 input spare\nPS0 = RS232 Rx\nPS1 = RS232 Tx
 Text Notes 4400 1050 0    50   ~ 0
 NOTE! The stock CMP, CKP and VSPD sensors require an 8 volt power\nsupply.
+$Comp
+L Device:C C?
+U 1 1 5F0E1342
+P 1400 4700
+AR Path="/5EF09792/5F0E1342" Ref="C?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F0E1342" Ref="C?"  Part="1" 
+AR Path="/5F09E690/5F0E1342" Ref="C205"  Part="1" 
+F 0 "C205" H 1300 4600 40  0000 C CNN
+F 1 "0.22uF" H 1550 4800 40  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 1438 4550 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1051_GOLDMAX_Z5U.pdf" H 1400 4700 50  0001 C CNN
+F 4 "C320C224M5U5TA" H 1400 4700 50  0001 C CNN "Mfg"
+F 5 "399-4289-ND" H 1400 4700 50  0001 C CNN "Digikey"
+	1    1400 4700
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F0E1E6A
+P 1400 5350
+AR Path="/5EF09792/5F0E1E6A" Ref="C?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F0E1E6A" Ref="C?"  Part="1" 
+AR Path="/5F09E690/5F0E1E6A" Ref="C206"  Part="1" 
+F 0 "C206" H 1300 5250 40  0000 C CNN
+F 1 "0.22uF" H 1550 5450 40  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 1438 5200 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1051_GOLDMAX_Z5U.pdf" H 1400 5350 50  0001 C CNN
+F 4 "C320C224M5U5TA" H 1400 5350 50  0001 C CNN "Mfg"
+F 5 "399-4289-ND" H 1400 5350 50  0001 C CNN "Digikey"
+	1    1400 5350
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F0E22CB
+P 1400 6000
+AR Path="/5EF09792/5F0E22CB" Ref="C?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F0E22CB" Ref="C?"  Part="1" 
+AR Path="/5F09E690/5F0E22CB" Ref="C207"  Part="1" 
+F 0 "C207" H 1300 5900 40  0000 C CNN
+F 1 "0.22uF" H 1550 6100 40  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 1438 5850 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1051_GOLDMAX_Z5U.pdf" H 1400 6000 50  0001 C CNN
+F 4 "C320C224M5U5TA" H 1400 6000 50  0001 C CNN "Mfg"
+F 5 "399-4289-ND" H 1400 6000 50  0001 C CNN "Digikey"
+	1    1400 6000
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F0E277B
+P 1400 7550
+AR Path="/5EF09792/5F0E277B" Ref="C?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F0E277B" Ref="C?"  Part="1" 
+AR Path="/5F09E690/5F0E277B" Ref="C208"  Part="1" 
+F 0 "C208" H 1300 7450 40  0000 C CNN
+F 1 "0.22uF" H 1550 7650 40  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 1438 7400 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1051_GOLDMAX_Z5U.pdf" H 1400 7550 50  0001 C CNN
+F 4 "C320C224M5U5TA" H 1400 7550 50  0001 C CNN "Mfg"
+F 5 "399-4289-ND" H 1400 7550 50  0001 C CNN "Digikey"
+	1    1400 7550
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F0E36AD
+P 3000 1300
+AR Path="/5EF09792/5F0E36AD" Ref="C?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F0E36AD" Ref="C?"  Part="1" 
+AR Path="/5F09E690/5F0E36AD" Ref="C219"  Part="1" 
+F 0 "C219" H 2900 1200 40  0000 C CNN
+F 1 "0.22uF" H 3150 1400 40  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 3038 1150 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1051_GOLDMAX_Z5U.pdf" H 3000 1300 50  0001 C CNN
+F 4 "C320C224M5U5TA" H 3000 1300 50  0001 C CNN "Mfg"
+F 5 "399-4289-ND" H 3000 1300 50  0001 C CNN "Digikey"
+	1    3000 1300
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F0E3B98
+P 3000 1950
+AR Path="/5EF09792/5F0E3B98" Ref="C?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F0E3B98" Ref="C?"  Part="1" 
+AR Path="/5F09E690/5F0E3B98" Ref="C220"  Part="1" 
+F 0 "C220" H 2900 1850 40  0000 C CNN
+F 1 "0.22uF" H 3150 2050 40  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 3038 1800 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1051_GOLDMAX_Z5U.pdf" H 3000 1950 50  0001 C CNN
+F 4 "C320C224M5U5TA" H 3000 1950 50  0001 C CNN "Mfg"
+F 5 "399-4289-ND" H 3000 1950 50  0001 C CNN "Digikey"
+	1    3000 1950
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F0E40D6
+P 3000 2600
+AR Path="/5EF09792/5F0E40D6" Ref="C?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F0E40D6" Ref="C?"  Part="1" 
+AR Path="/5F09E690/5F0E40D6" Ref="C221"  Part="1" 
+F 0 "C221" H 2900 2500 40  0000 C CNN
+F 1 "0.22uF" H 3150 2700 40  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 3038 2450 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1051_GOLDMAX_Z5U.pdf" H 3000 2600 50  0001 C CNN
+F 4 "C320C224M5U5TA" H 3000 2600 50  0001 C CNN "Mfg"
+F 5 "399-4289-ND" H 3000 2600 50  0001 C CNN "Digikey"
+	1    3000 2600
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F0E4588
+P 3000 3250
+AR Path="/5EF09792/5F0E4588" Ref="C?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F0E4588" Ref="C?"  Part="1" 
+AR Path="/5F09E690/5F0E4588" Ref="C222"  Part="1" 
+F 0 "C222" H 2900 3150 40  0000 C CNN
+F 1 "0.22uF" H 3150 3350 40  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 3038 3100 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1051_GOLDMAX_Z5U.pdf" H 3000 3250 50  0001 C CNN
+F 4 "C320C224M5U5TA" H 3000 3250 50  0001 C CNN "Mfg"
+F 5 "399-4289-ND" H 3000 3250 50  0001 C CNN "Digikey"
+	1    3000 3250
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F0EAF95
+P 1700 6000
+AR Path="/5EF09792/5F0EAF95" Ref="R?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F0EAF95" Ref="R?"  Part="1" 
+AR Path="/5F09E690/5F0EAF95" Ref="R228"  Part="1" 
+F 0 "R228" V 1625 6025 40  0000 C CNN
+F 1 "1Meg" V 1700 6000 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1630 6000 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 1700 6000 50  0001 C CNN
+F 4 "MFR-25FBF52-1M" V 1700 6000 50  0001 C CNN "Mfg"
+F 5 "1.00MXBK-ND" V 1700 6000 50  0001 C CNN "Digikey"
+	1    1700 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 4700 9450 4700
+Wire Wire Line
+	9550 5400 9450 5400
+Wire Wire Line
+	9450 5400 9450 4700
+Connection ~ 9450 4700
+$Comp
+L Device:C C?
+U 1 1 5F16DB2C
+P 1700 4700
+AR Path="/5EF09792/5F16DB2C" Ref="C?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F16DB2C" Ref="C?"  Part="1" 
+AR Path="/5F09E690/5F16DB2C" Ref="C213"  Part="1" 
+F 0 "C213" H 1800 4600 40  0000 C CNN
+F 1 "0.001uF" H 1850 4800 40  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 1738 4550 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1050_GOLDMAX_X7R.pdf" H 1700 4700 50  0001 C CNN
+F 4 "C315C102K1R5TA" H 1700 4700 50  0001 C CNN "Mfg"
+F 5 "399-4144-ND" H 1700 4700 50  0001 C CNN "Digikey"
+	1    1700 4700
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F16E19B
+P 1700 5350
+AR Path="/5EF09792/5F16E19B" Ref="C?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F16E19B" Ref="C?"  Part="1" 
+AR Path="/5F09E690/5F16E19B" Ref="C214"  Part="1" 
+F 0 "C214" H 1800 5250 40  0000 C CNN
+F 1 "0.001uF" H 1850 5450 40  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 1738 5200 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1050_GOLDMAX_X7R.pdf" H 1700 5350 50  0001 C CNN
+F 4 "C315C102K1R5TA" H 1700 5350 50  0001 C CNN "Mfg"
+F 5 "399-4144-ND" H 1700 5350 50  0001 C CNN "Digikey"
+	1    1700 5350
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F16E8D4
+P 1700 7550
+AR Path="/5EF09792/5F16E8D4" Ref="C?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F16E8D4" Ref="C?"  Part="1" 
+AR Path="/5F09E690/5F16E8D4" Ref="C216"  Part="1" 
+F 0 "C216" H 1800 7450 40  0000 C CNN
+F 1 "0.001uF" H 1850 7650 40  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 1738 7400 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1050_GOLDMAX_X7R.pdf" H 1700 7550 50  0001 C CNN
+F 4 "C315C102K1R5TA" H 1700 7550 50  0001 C CNN "Mfg"
+F 5 "399-4144-ND" H 1700 7550 50  0001 C CNN "Digikey"
+	1    1700 7550
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F171833
+P 3300 1300
+AR Path="/5EF09792/5F171833" Ref="C?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F171833" Ref="C?"  Part="1" 
+AR Path="/5F09E690/5F171833" Ref="C223"  Part="1" 
+F 0 "C223" H 3400 1200 40  0000 C CNN
+F 1 "0.001uF" H 3450 1400 40  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 3338 1150 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1050_GOLDMAX_X7R.pdf" H 3300 1300 50  0001 C CNN
+F 4 "C315C102K1R5TA" H 3300 1300 50  0001 C CNN "Mfg"
+F 5 "399-4144-ND" H 3300 1300 50  0001 C CNN "Digikey"
+	1    3300 1300
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F171F70
+P 3300 1950
+AR Path="/5EF09792/5F171F70" Ref="C?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F171F70" Ref="C?"  Part="1" 
+AR Path="/5F09E690/5F171F70" Ref="C224"  Part="1" 
+F 0 "C224" H 3400 1850 40  0000 C CNN
+F 1 "0.001uF" H 3450 2050 40  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 3338 1800 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1050_GOLDMAX_X7R.pdf" H 3300 1950 50  0001 C CNN
+F 4 "C315C102K1R5TA" H 3300 1950 50  0001 C CNN "Mfg"
+F 5 "399-4144-ND" H 3300 1950 50  0001 C CNN "Digikey"
+	1    3300 1950
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F1724B9
+P 3300 2600
+AR Path="/5EF09792/5F1724B9" Ref="C?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F1724B9" Ref="C?"  Part="1" 
+AR Path="/5F09E690/5F1724B9" Ref="C225"  Part="1" 
+F 0 "C225" H 3400 2500 40  0000 C CNN
+F 1 "0.001uF" H 3450 2700 40  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 3338 2450 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1050_GOLDMAX_X7R.pdf" H 3300 2600 50  0001 C CNN
+F 4 "C315C102K1R5TA" H 3300 2600 50  0001 C CNN "Mfg"
+F 5 "399-4144-ND" H 3300 2600 50  0001 C CNN "Digikey"
+	1    3300 2600
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F172AF3
+P 3300 3250
+AR Path="/5EF09792/5F172AF3" Ref="C?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F172AF3" Ref="C?"  Part="1" 
+AR Path="/5F09E690/5F172AF3" Ref="C226"  Part="1" 
+F 0 "C226" H 3400 3150 40  0000 C CNN
+F 1 "0.001uF" H 3450 3350 40  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 3338 3100 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1050_GOLDMAX_X7R.pdf" H 3300 3250 50  0001 C CNN
+F 4 "C315C102K1R5TA" H 3300 3250 50  0001 C CNN "Mfg"
+F 5 "399-4144-ND" H 3300 3250 50  0001 C CNN "Digikey"
+	1    3300 3250
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F179273
+P 7300 4400
+AR Path="/5EF09792/5F179273" Ref="C?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F179273" Ref="C?"  Part="1" 
+AR Path="/5F09E690/5F179273" Ref="C230"  Part="1" 
+F 0 "C230" H 7200 4300 40  0000 C CNN
+F 1 "1.0uF" H 7200 4500 40  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 7338 4250 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C315C105K3R5TA.pdf" H 7300 4400 50  0001 C CNN
+F 4 "C315C105K3R5TA" H 7300 4400 50  0001 C CNN "Mfg"
+F 5 "399-9714-ND" H 7300 4400 50  0001 C CNN "Digikey"
+	1    7300 4400
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F179C88
+P 8900 4400
+AR Path="/5EF09792/5F179C88" Ref="C?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F179C88" Ref="C?"  Part="1" 
+AR Path="/5F09E690/5F179C88" Ref="C231"  Part="1" 
+F 0 "C231" H 9000 4300 40  0000 C CNN
+F 1 "1.0uF" H 9000 4500 40  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 8938 4250 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C315C105K3R5TA.pdf" H 8900 4400 50  0001 C CNN
+F 4 "C315C105K3R5TA" H 8900 4400 50  0001 C CNN "Mfg"
+F 5 "399-9714-ND" H 8900 4400 50  0001 C CNN "Digikey"
+	1    8900 4400
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F17A42B
+P 9150 4400
+AR Path="/5EF09792/5F17A42B" Ref="C?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F17A42B" Ref="C?"  Part="1" 
+AR Path="/5F09E690/5F17A42B" Ref="C232"  Part="1" 
+F 0 "C232" H 9250 4300 40  0000 C CNN
+F 1 "1.0uF" H 9250 4500 40  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 9188 4250 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C315C105K3R5TA.pdf" H 9150 4400 50  0001 C CNN
+F 4 "C315C105K3R5TA" H 9150 4400 50  0001 C CNN "Mfg"
+F 5 "399-9714-ND" H 9150 4400 50  0001 C CNN "Digikey"
+	1    9150 4400
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F17A7E9
+P 9150 5200
+AR Path="/5EF09792/5F17A7E9" Ref="C?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F17A7E9" Ref="C?"  Part="1" 
+AR Path="/5F09E690/5F17A7E9" Ref="C233"  Part="1" 
+F 0 "C233" H 9250 5100 40  0000 C CNN
+F 1 "1.0uF" H 9250 5300 40  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 9188 5050 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C315C105K3R5TA.pdf" H 9150 5200 50  0001 C CNN
+F 4 "C315C105K3R5TA" H 9150 5200 50  0001 C CNN "Mfg"
+F 5 "399-9714-ND" H 9150 5200 50  0001 C CNN "Digikey"
+	1    9150 5200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F182301
+P 1550 2850
+AR Path="/5EF09792/5F182301" Ref="R?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F182301" Ref="R?"  Part="1" 
+AR Path="/5F09E690/5F182301" Ref="R206"  Part="1" 
+F 0 "R206" V 1475 2875 40  0000 C CNN
+F 1 "6.98K" V 1550 2850 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1480 2850 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 1550 2850 50  0001 C CNN
+F 4 "MFR-25FBF52-6K98" V 1550 2850 50  0001 C CNN "Mfg"
+F 5 "6.98KXBK-ND" V 1550 2850 50  0001 C CNN "Digikey"
+	1    1550 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F182837
+P 1550 3700
+AR Path="/5EF09792/5F182837" Ref="R?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F182837" Ref="R?"  Part="1" 
+AR Path="/5F09E690/5F182837" Ref="R208"  Part="1" 
+F 0 "R208" V 1475 3725 40  0000 C CNN
+F 1 "6.98K" V 1550 3700 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1480 3700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 1550 3700 50  0001 C CNN
+F 4 "MFR-25FBF52-6K98" V 1550 3700 50  0001 C CNN "Mfg"
+F 5 "6.98KXBK-ND" V 1550 3700 50  0001 C CNN "Digikey"
+	1    1550 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F1864AB
+P 6250 2100
+AR Path="/5EF09792/5F1864AB" Ref="R?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F1864AB" Ref="R?"  Part="1" 
+AR Path="/5F09E690/5F1864AB" Ref="R226"  Part="1" 
+F 0 "R226" V 6175 2125 40  0000 C CNN
+F 1 "200R" V 6250 2100 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6180 2100 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 6250 2100 50  0001 C CNN
+F 4 "MFR-25FBF52-200R" V 6250 2100 50  0001 C CNN "Mfg"
+F 5 "200XBK-ND" V 6250 2100 50  0001 C CNN "Digikey"
+	1    6250 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F186A87
+P 6250 2900
+AR Path="/5EF09792/5F186A87" Ref="R?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F186A87" Ref="R?"  Part="1" 
+AR Path="/5F09E690/5F186A87" Ref="R227"  Part="1" 
+F 0 "R227" V 6175 2925 40  0000 C CNN
+F 1 "200R" V 6250 2900 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6180 2900 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 6250 2900 50  0001 C CNN
+F 4 "MFR-25FBF52-200R" V 6250 2900 50  0001 C CNN "Mfg"
+F 5 "200XBK-ND" V 6250 2900 50  0001 C CNN "Digikey"
+	1    6250 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F189D0D
+P 1550 2200
+AR Path="/5EF09792/5F189D0D" Ref="R?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F189D0D" Ref="R?"  Part="1" 
+AR Path="/5F09E690/5F189D0D" Ref="R205"  Part="1" 
+F 0 "R205" V 1475 2225 40  0000 C CNN
+F 1 "1K" V 1550 2200 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1480 2200 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 1550 2200 50  0001 C CNN
+F 4 "MFR-25FBF52-1K" V 1550 2200 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 1550 2200 50  0001 C CNN "Digikey"
+	1    1550 2200
+	0    1    1    0   
+$EndComp
+Connection ~ 1400 2200
+$Comp
+L Device:R R?
+U 1 1 5F18A338
+P 1550 3050
+AR Path="/5EF09792/5F18A338" Ref="R?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F18A338" Ref="R?"  Part="1" 
+AR Path="/5F09E690/5F18A338" Ref="R207"  Part="1" 
+F 0 "R207" V 1475 3075 40  0000 C CNN
+F 1 "1K" V 1550 3050 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1480 3050 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 1550 3050 50  0001 C CNN
+F 4 "MFR-25FBF52-1K" V 1550 3050 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 1550 3050 50  0001 C CNN "Digikey"
+	1    1550 3050
+	0    1    1    0   
+$EndComp
+Connection ~ 1400 3050
+$Comp
+L Device:R R?
+U 1 1 5F18A932
+P 1550 3900
+AR Path="/5EF09792/5F18A932" Ref="R?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F18A932" Ref="R?"  Part="1" 
+AR Path="/5F09E690/5F18A932" Ref="R209"  Part="1" 
+F 0 "R209" V 1475 3925 40  0000 C CNN
+F 1 "1K" V 1550 3900 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1480 3900 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 1550 3900 50  0001 C CNN
+F 4 "MFR-25FBF52-1K" V 1550 3900 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 1550 3900 50  0001 C CNN "Digikey"
+	1    1550 3900
+	0    1    1    0   
+$EndComp
+Connection ~ 1400 3900
+$Comp
+L Device:R R?
+U 1 1 5F18AE6A
+P 1550 4550
+AR Path="/5EF09792/5F18AE6A" Ref="R?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F18AE6A" Ref="R?"  Part="1" 
+AR Path="/5F09E690/5F18AE6A" Ref="R210"  Part="1" 
+F 0 "R210" V 1475 4575 40  0000 C CNN
+F 1 "1K" V 1550 4550 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1480 4550 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 1550 4550 50  0001 C CNN
+F 4 "MFR-25FBF52-1K" V 1550 4550 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 1550 4550 50  0001 C CNN "Digikey"
+	1    1550 4550
+	0    1    1    0   
+$EndComp
+Connection ~ 1700 4550
+Connection ~ 1400 4550
+$Comp
+L Device:R R?
+U 1 1 5F18B3F5
+P 1550 5200
+AR Path="/5EF09792/5F18B3F5" Ref="R?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F18B3F5" Ref="R?"  Part="1" 
+AR Path="/5F09E690/5F18B3F5" Ref="R211"  Part="1" 
+F 0 "R211" V 1475 5225 40  0000 C CNN
+F 1 "1K" V 1550 5200 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1480 5200 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 1550 5200 50  0001 C CNN
+F 4 "MFR-25FBF52-1K" V 1550 5200 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 1550 5200 50  0001 C CNN "Digikey"
+	1    1550 5200
+	0    1    1    0   
+$EndComp
+Connection ~ 1700 5200
+Connection ~ 1400 5200
+$Comp
+L Device:R R?
+U 1 1 5F18B796
+P 1550 5850
+AR Path="/5EF09792/5F18B796" Ref="R?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F18B796" Ref="R?"  Part="1" 
+AR Path="/5F09E690/5F18B796" Ref="R212"  Part="1" 
+F 0 "R212" V 1475 5875 40  0000 C CNN
+F 1 "1K" V 1550 5850 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1480 5850 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 1550 5850 50  0001 C CNN
+F 4 "MFR-25FBF52-1K" V 1550 5850 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 1550 5850 50  0001 C CNN "Digikey"
+	1    1550 5850
+	0    1    1    0   
+$EndComp
+Connection ~ 1700 5850
+Connection ~ 1400 5850
+$Comp
+L Device:R R?
+U 1 1 5F18BBE4
+P 1550 7400
+AR Path="/5EF09792/5F18BBE4" Ref="R?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F18BBE4" Ref="R?"  Part="1" 
+AR Path="/5F09E690/5F18BBE4" Ref="R213"  Part="1" 
+F 0 "R213" V 1475 7425 40  0000 C CNN
+F 1 "1K" V 1550 7400 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1480 7400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 1550 7400 50  0001 C CNN
+F 4 "MFR-25FBF52-1K" V 1550 7400 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 1550 7400 50  0001 C CNN "Digikey"
+	1    1550 7400
+	0    1    1    0   
+$EndComp
+Connection ~ 1700 7400
+Connection ~ 1400 7400
+$Comp
+L Device:R R?
+U 1 1 5F18C694
+P 3150 1150
+AR Path="/5EF09792/5F18C694" Ref="R?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F18C694" Ref="R?"  Part="1" 
+AR Path="/5F09E690/5F18C694" Ref="R215"  Part="1" 
+F 0 "R215" V 3075 1175 40  0000 C CNN
+F 1 "1K" V 3150 1150 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3080 1150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 3150 1150 50  0001 C CNN
+F 4 "MFR-25FBF52-1K" V 3150 1150 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 3150 1150 50  0001 C CNN "Digikey"
+	1    3150 1150
+	0    1    1    0   
+$EndComp
+Connection ~ 3300 1150
+Connection ~ 3000 1150
+$Comp
+L Device:R R?
+U 1 1 5F18D07B
+P 3150 1800
+AR Path="/5EF09792/5F18D07B" Ref="R?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F18D07B" Ref="R?"  Part="1" 
+AR Path="/5F09E690/5F18D07B" Ref="R216"  Part="1" 
+F 0 "R216" V 3075 1825 40  0000 C CNN
+F 1 "1K" V 3150 1800 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3080 1800 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 3150 1800 50  0001 C CNN
+F 4 "MFR-25FBF52-1K" V 3150 1800 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 3150 1800 50  0001 C CNN "Digikey"
+	1    3150 1800
+	0    1    1    0   
+$EndComp
+Connection ~ 3300 1800
+Connection ~ 3000 1800
+$Comp
+L Device:R R?
+U 1 1 5F18D492
+P 3150 2450
+AR Path="/5EF09792/5F18D492" Ref="R?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F18D492" Ref="R?"  Part="1" 
+AR Path="/5F09E690/5F18D492" Ref="R217"  Part="1" 
+F 0 "R217" V 3075 2475 40  0000 C CNN
+F 1 "1K" V 3150 2450 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3080 2450 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 3150 2450 50  0001 C CNN
+F 4 "MFR-25FBF52-1K" V 3150 2450 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 3150 2450 50  0001 C CNN "Digikey"
+	1    3150 2450
+	0    1    1    0   
+$EndComp
+Connection ~ 3300 2450
+Connection ~ 3000 2450
+$Comp
+L Device:R R?
+U 1 1 5F18D80D
+P 3150 3100
+AR Path="/5EF09792/5F18D80D" Ref="R?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F18D80D" Ref="R?"  Part="1" 
+AR Path="/5F09E690/5F18D80D" Ref="R218"  Part="1" 
+F 0 "R218" V 3075 3125 40  0000 C CNN
+F 1 "1K" V 3150 3100 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3080 3100 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 3150 3100 50  0001 C CNN
+F 4 "MFR-25FBF52-1K" V 3150 3100 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 3150 3100 50  0001 C CNN "Digikey"
+	1    3150 3100
+	0    1    1    0   
+$EndComp
+Connection ~ 3300 3100
+Connection ~ 3000 3100
+$Comp
+L Device:R R?
+U 1 1 5F18DC9C
+P 5250 1800
+AR Path="/5EF09792/5F18DC9C" Ref="R?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F18DC9C" Ref="R?"  Part="1" 
+AR Path="/5F09E690/5F18DC9C" Ref="R219"  Part="1" 
+F 0 "R219" V 5350 1800 40  0000 C CNN
+F 1 "1K" V 5250 1800 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5180 1800 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 5250 1800 50  0001 C CNN
+F 4 "MFR-25FBF52-1K" V 5250 1800 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 5250 1800 50  0001 C CNN "Digikey"
+	1    5250 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F18E80C
+P 5250 2600
+AR Path="/5EF09792/5F18E80C" Ref="R?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F18E80C" Ref="R?"  Part="1" 
+AR Path="/5F09E690/5F18E80C" Ref="R220"  Part="1" 
+F 0 "R220" V 5350 2600 40  0000 C CNN
+F 1 "1K" V 5250 2600 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5180 2600 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 5250 2600 50  0001 C CNN
+F 4 "MFR-25FBF52-1K" V 5250 2600 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 5250 2600 50  0001 C CNN "Digikey"
+	1    5250 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F18EDF4
+P 5250 3400
+AR Path="/5EF09792/5F18EDF4" Ref="R?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F18EDF4" Ref="R?"  Part="1" 
+AR Path="/5F09E690/5F18EDF4" Ref="R221"  Part="1" 
+F 0 "R221" V 5350 3400 40  0000 C CNN
+F 1 "1K" V 5250 3400 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5180 3400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 5250 3400 50  0001 C CNN
+F 4 "MFR-25FBF52-1K" V 5250 3400 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 5250 3400 50  0001 C CNN "Digikey"
+	1    5250 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F18F386
+P 5750 1800
+AR Path="/5EF09792/5F18F386" Ref="R?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F18F386" Ref="R?"  Part="1" 
+AR Path="/5F09E690/5F18F386" Ref="R222"  Part="1" 
+F 0 "R222" V 5850 1800 40  0000 C CNN
+F 1 "1K" V 5750 1800 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5680 1800 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 5750 1800 50  0001 C CNN
+F 4 "MFR-25FBF52-1K" V 5750 1800 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 5750 1800 50  0001 C CNN "Digikey"
+	1    5750 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F18FBB8
+P 5750 2600
+AR Path="/5EF09792/5F18FBB8" Ref="R?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F18FBB8" Ref="R?"  Part="1" 
+AR Path="/5F09E690/5F18FBB8" Ref="R223"  Part="1" 
+F 0 "R223" V 5850 2600 40  0000 C CNN
+F 1 "1K" V 5750 2600 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5680 2600 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 5750 2600 50  0001 C CNN
+F 4 "MFR-25FBF52-1K" V 5750 2600 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 5750 2600 50  0001 C CNN "Digikey"
+	1    5750 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F18FFFC
+P 5750 3400
+AR Path="/5EF09792/5F18FFFC" Ref="R?"  Part="1" 
+AR Path="/5EF2B07F/5EF75822/5F18FFFC" Ref="R?"  Part="1" 
+AR Path="/5F09E690/5F18FFFC" Ref="R224"  Part="1" 
+F 0 "R224" V 5850 3400 40  0000 C CNN
+F 1 "1K" V 5750 3400 40  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5680 3400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 5750 3400 50  0001 C CNN
+F 4 "MFR-25FBF52-1K" V 5750 3400 50  0001 C CNN "Mfg"
+F 5 "1.00KXBK-ND" V 5750 3400 50  0001 C CNN "Digikey"
+	1    5750 3400
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

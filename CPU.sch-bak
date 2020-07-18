@@ -1073,10 +1073,10 @@ Wire Wire Line
 Connection ~ 8200 3750
 Connection ~ 8200 3850
 $Comp
-L power:+BATT #PWR?
+L power:+BATT #PWR0103
 U 1 1 5F2B675E
 P 10150 3700
-F 0 "#PWR?" H 10150 3550 50  0001 C CNN
+F 0 "#PWR0103" H 10150 3550 50  0001 C CNN
 F 1 "+BATT" V 10165 3828 50  0000 L CNN
 F 2 "" H 10150 3700 50  0001 C CNN
 F 3 "" H 10150 3700 50  0001 C CNN
@@ -1212,10 +1212,10 @@ Wire Wire Line
 Wire Wire Line
 	3400 1850 3400 1350
 $Comp
-L Connector_Generic:Conn_02x18_Odd_Even J?
+L Connector_Generic:Conn_02x18_Odd_Even J302
 U 1 1 5EF6ADF9
 P 9300 3400
-F 0 "J?" H 9350 4350 50  0000 C CNN
+F 0 "J302" H 9350 4350 50  0000 C CNN
 F 1 "Conn_02x18_Odd_Even" H 9350 2250 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x18_P2.54mm_Vertical" H 9300 3400 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf" H 9300 3400 50  0001 C CNN
@@ -1386,16 +1386,12 @@ Connection ~ 10100 3700
 Wire Wire Line
 	10100 3700 10150 3700
 Wire Wire Line
-	9500 4000 10050 4000
-Wire Wire Line
 	10050 4050 10050 4000
 Connection ~ 10050 4000
 Wire Wire Line
 	10050 4000 10100 4000
 Entry Wire Line
 	9700 3900 9800 3800
-Wire Bus Line
-	9800 2350 9800 3800
 Entry Wire Line
 	8800 3800 8700 3700
 Entry Wire Line
@@ -1408,10 +1404,20 @@ Entry Wire Line
 	8700 4100 8800 4200
 Entry Wire Line
 	8700 4200 8800 4300
+Entry Wire Line
+	9700 4300 9800 4200
+Entry Wire Line
+	9700 4200 9800 4100
+Entry Wire Line
+	9700 4100 9800 4000
+Wire Wire Line
+	9500 4000 10050 4000
 Wire Wire Line
 	9500 3800 9850 3800
 Wire Wire Line
 	2900 1350 2900 1850
+Wire Bus Line
+	9800 2350 9800 4200
 Wire Bus Line
 	2500 5750 9950 5750
 Wire Bus Line
