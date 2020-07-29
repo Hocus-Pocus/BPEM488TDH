@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\angel\\Documents\\KiCad Projects\\BPEM488THD\\BPEM488THD.sch")
-    (date "2020-07-20 7:54:11 PM")
+    (date "2020-07-24 2:44:50 PM")
     (tool "Eeschema (5.1.6)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
